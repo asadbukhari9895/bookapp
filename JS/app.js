@@ -33,7 +33,7 @@ class UI {
 
     static showAlert(message, clasnme) {
         const div = document.createElement('div');
-        div.className = `${clasnme}`;
+        div.className = `p-2 ${clasnme}`;
         div.id = "remove";
         // div.setAttribute('role', 'alert')
         div.appendChild(document.createTextNode(message));
