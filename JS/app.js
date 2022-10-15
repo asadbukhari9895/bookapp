@@ -1,4 +1,4 @@
-// Class BOOK: handle books
+// Class BOOK: handle book
 class Book {
     constructor(title, author, isbn) {
         this.title = title;
